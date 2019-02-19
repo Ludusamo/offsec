@@ -1,4 +1,5 @@
 document.cookie = "CHALBROKER_USER_ID=bh1642";
+document.cookie = "PHPSESSID=inbdndc8l35c80fi1spdm1hpe4"
 
 var formData = new FormData();
 formData.append('title', 'test');
