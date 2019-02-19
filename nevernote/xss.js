@@ -1,3 +1,6 @@
+document.cookie = "CHALBROKER_USER_ID=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+document.cookie = "PHPSESSID=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+
 document.cookie = "CHALBROKER_USER_ID=bh1642";
 document.cookie = "PHPSESSID=inbdndc8l35c80fi1spdm1hpe4"
 
