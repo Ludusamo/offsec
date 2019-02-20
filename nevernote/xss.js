@@ -16,7 +16,7 @@ formData.append('submit', 'save');
 //
 //});
 fetch("https://script.google.com/macros/s/AKfycbw810ejtzxD6RkRRiwH1UUp3QCZ-t71T6Gw0uPm4lD8JepQH1A/exec?action=get&cookie=Iamworking", {
-    method: "POST",
+    method: "GET",
     credentials: "same-origin"
 }).then(res => {
     alert(response.json);
